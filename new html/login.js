@@ -27,16 +27,7 @@ button=document.getElementById("button");
         password.style.border='1px solid green';
     }
   });
-  button.addEventListener('blur',()=>{
-    if(Age.value==""){
-    Age.style.border='1px solid red';
-    alert("Age is required");
 
-    }
-    else{
-        Age.style.border='1px solid green';
-    }
-  });
   button.addEventListener('blur',()=>{
     if(phone.value==""){
    phone.style.border='1px solid red';
@@ -47,4 +38,13 @@ button=document.getElementById("button");
         phone.style.border='1px solid green';
     }
   });
+  button.addEventListener('blur',()=>{
+    if(Age.value==""){
+    Age.style.border='1px solid red';
+    alert("Age is required");
 
+    }
+    else{
+        Age.style.border='1px solid green';
+    }
+  });
